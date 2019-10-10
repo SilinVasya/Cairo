@@ -43,7 +43,7 @@ let package = Package(
             name: "CFreeType",
             pkgConfig: "freetype",
             providers: [
-                .brew(["freetype2"]),
+                .brew(["freetype"]),
                 .apt(["libfreetype6-dev"])
             ])
     ],
